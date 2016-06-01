@@ -8,15 +8,17 @@ ul{
 	text-align: center;
 }
 li{
-
+	width: 200px;
+	height: 50px;
 	display: block;
 	float: left;
 	border: none;
 	border-right: 1px solid #F1EDED;
 	position: relative;
+	text-align: center;
 }
 a{
-	text-align: center;
+	
 
 	display: block;
 	color: white;
@@ -24,10 +26,12 @@ a{
 }
 .submenu{
 	display: none;
-	position: absolute;
+	
+
 }
 li:hover > .submenu{
 	display: inline-block;
+	
 }
 .menu{
 	float: left;
