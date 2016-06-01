@@ -1,0 +1,36 @@
+body{
+	background-color: #A6EAF0;
+}
+ul{
+	display: inline-block;
+	list-style: none;
+	background-color:#645E5E ;
+	text-align: center;
+}
+li{
+
+	display: block;
+	float: left;
+	border: none;
+	border-right: 1px solid #F1EDED;
+	position: relative;
+}
+a{
+	text-align: center;
+
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+.submenu{
+	display: none;
+	position: absolute;
+}
+li:hover > .submenu{
+	display: inline-block;
+}
+.menu{
+	float: left;
+	display: inline-block;
+	position: relative;
+}
